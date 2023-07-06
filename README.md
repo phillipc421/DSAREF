@@ -21,12 +21,15 @@ Below are resources for learning about the specific data structure and some rela
 ### Arrays
 [Static Arrays vs Dynamic Arrays](https://www.youtube.com/watch?v=PEnFFiQe1pM) - Good explanation of the difference between the two, including their time complexities (big O). Note that if you've only used JavaScript, and many other programming languages, **you will not really ever work with static arrays.** The built in array data strucutre in languages like JavaScript are *dynamic arrays*. Still important to know the difference and appreicate the benefits of dynamic arrays.
 
-#### Practice Problems
+#### **Practice Problems**
 [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) - Static Arrays
 
 [Remove Element](https://leetcode.com/problems/remove-element/) - Static Arrays
 
-The above two problems focus on *static arrays*, not dynamic arrays. This means the array's size **cannot** be manipulated. You will rearrange elements [*in place*](https://en.wikipedia.org/wiki/In-place_algorithm), meaning you cannot create additional space (a new array) in order to solve the problem.
+The above two problems focus on *static arrays*, not dynamic arrays. This means the array's size **cannot** be manipulated. You will rearrange elements [*in place*](https://en.wikipedia.org/wiki/In-place_algorithm), meaning you cannot create additional space (a new array) in order to solve the problem. 
+
+We can use a technique known as "two pointers" to solve these problems in an efficient manner (linear time, O(n)). [Read this article.](https://www.geeksforgeeks.org/two-pointers-technique/)
+"Two pointers" can be used to solve other problems in this document as well.
 
 [Two Sum](https://leetcode.com/problems/two-sum/) - Array Traversal
 
@@ -39,7 +42,7 @@ The above two problems focus on *static arrays*, not dynamic arrays. This means 
 
 [Linked Lists](https://www.youtube.com/watch?v=N6dOwBde7-M) - Explains what linked lists are and how they compare to traditional arrays. Covers everything you should need to know to get started. Note the we can implement the "nodes" with JavaScript objects like we are used to. ie `node = {next = nextNode, val = someValue}` This video demostrates using Java code, but the concepts are the same no matter the language.
 
-#### Practice Problems
+#### **Practice Problems**
 
 [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) - Singly Linked List
 
@@ -60,7 +63,7 @@ You may notice that some of the above questions could be answered using dynmaic 
 
 We can implement queues using either dynamic arrays or linked lists. It's good to know how to do both.
 
-#### Practice Problems
+#### **Practice Problems**
 
 [Number Of Students Unable To Eat Lunch](https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/)
 
